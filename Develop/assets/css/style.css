@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 0;
     margin: 0;
 }
@@ -8,40 +8,37 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {    /* Made header a selector */
+
+    color: #d6d6dc;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
+h1 { /*Made h1 a selector and removed class header h1 .seo */
+    display: inline-block;     
+    font-size: 48px; 
+    
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
+.listheading {   /* Changed the calss name from .header div to listheading. Also removed the class .header DIv ul as it was not needed*/
 
-.header div {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    float: right;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+.listheading ul li { /*Class was renamed to match the naming convention of the new class listheading */
     display: inline-block;
     margin-left: 25px;
-}
+    /* list-style-type: none; */
+  }
 
-a {
+a { 
     color: #ffffff;
     text-decoration: none;
 }
@@ -50,7 +47,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+
+.center-image { /* Changed the class name from hero to Center-Image to increase the readability */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -67,71 +65,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .search-engine-optimization {
@@ -161,34 +94,51 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+img {  /*This selctor was made and the 3 element classes were removed as this selector was used as a common img property*/ 
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+h2 { /*This selctor was made and the 3 element classes were removed as this selector was used as a common h2 property */
     margin-bottom: 20px;
     font-size: 36px;
 }
+.section-content { /*Renamed the class content as section-content */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+    
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+   
+    
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefit-alignment {  /* Remaded the class and used it for all 3 benefit content. removed the duplicate*/
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
-.footer {
+.benefit-alignment h3 { /* Remaded the class and used it for all 3 benefit content. removed the duplicate*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-alignment img { /* Remaded the class and used it for all 3 benefit content. removed the duplicate*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer { /*Footer was made a selector*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
