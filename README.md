@@ -1,4 +1,4 @@
-# Caleton University Coding BootCamp Challenge Assignment 01
+# Carleton University Coding Bootcamp Challenge Assignment 01
 
 ## Bootcamp Module 01 Individual Challenge Assignment 01
 
@@ -8,7 +8,7 @@ The task of the assignment was to refactor the existing code (improving it witho
 -	Used proper logical structure independent of styling and positioning to increase readability of the code.
 -	Used a structure that met the standards for efficient search engine optimization.
 
-## Requirments to view the code and the output
+## Requirements to view the code and the output
 
 - VS Code or any other HTML compatible compiler.
 - OS - MS Windows, MAC or any other OS which supports GUI browser display.
