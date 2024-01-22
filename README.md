@@ -28,7 +28,7 @@ Home Screen layout:
 
 ## Links
 
-GITHUB URL : https://github.com/anthogr45/First-Challenge?tab=readme-ov-file <br>
+GITHUB URL : https://github.com/anthogr45/First-Challenge <br>
 Deployed URL : https://anthogr45.github.io/First-Challenge/
 
 
