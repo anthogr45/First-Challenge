@@ -18,7 +18,7 @@ The task of the assignment was to refactor the existing code (improving it witho
 ## Usage
 
 Home Screen layout:
-![image info](assets/images/digital-marketing-meeting.jpg)
+![image info](Assets/images/digital-marketing-meeting.jpg)
 
 ## Credits
 
