@@ -26,7 +26,8 @@ Home Screen layout:
 - Class students for their collaborative support in the slack chat.
 
 
-## Features
+## Links
 
-Front end page for a Search Engine Marketing Management Web Site.
+GITHUB URL : https://github.com/anthogr45/First-Challenge?tab=readme-ov-file
+Deployed URL : 
 
