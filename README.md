@@ -17,7 +17,8 @@ The task of the assignment was to refactor the existing code (improving it witho
 
 ## Usage
 
-Home Screen layout is available in the repository path Assets/01-html-css-git-homework-demo.png
+Home Screen layout:
+![image info](assets/images/Screen.png)
 
 ## Credits
 
